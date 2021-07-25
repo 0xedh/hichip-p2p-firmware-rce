@@ -39,7 +39,7 @@ Exploit development and reversing of Hichip's P2P camera firmware
 
 ## Overview
 
-First of all, thanks to the researcher @pmarrapese and his awesome #DEFCONSafeMode talk. He is the original discoverer of these vulnerabilities and other ones.
+First of all, thanks to the researcher @pmarrapese and his awesome #DEFCONSafeMode talk. He is the original discoverer of these vulnerabilities and others.
 
 Regarding to CVE-MITRE:
 
@@ -49,7 +49,7 @@ So millions of devices without automatic updates which don't need to be directly
 
 ## CamHI
 
-To understand how the camera's management and authentication mechanisms works it has been useful to analyze the official application statically and dynamically. To keep it simple, here we'll only describe a partial analysis of the Android CamHI application. There are others application to interact with the camera designed to work with other operative systems that could be helpful too. We also need to perform network analysis while the application is running, for this matter two custom Wireshark dissectors have been helpful:
+To understand how the camera's management and authentication mechanisms works it has been useful to analyze the official application statically and dynamically. To keep it simple, here we'll only describe a partial analysis of the Android CamHI application. There are other applications to interact with the camera designed to work with other operative systems that could be helpful too. We also need to perform network analysis while the application is running, for this matter two custom Wireshark dissectors have been helpful:
 
 * https://github.com/fbertone/32100-dissector
 * https://github.com/pmarrapese/iot/tree/master/p2p/dissector
